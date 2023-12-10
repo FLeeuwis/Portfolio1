@@ -1,5 +1,11 @@
+@font-face {font-family: Modern; src: url('MOD20.TTF');}
+
 body{
     background-color: #e5e5ec;
+}
+
+.link{
+    cursor:pointer;
 }
 
 .container{
@@ -17,7 +23,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnP {
@@ -28,7 +34,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnB {
@@ -39,7 +45,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnL {
@@ -50,7 +56,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 
@@ -76,3 +82,327 @@ a:visited {
 #homepage img {
     width: 180px;
 }
+
+.breakingnews{
+    position:absolute;
+    color: #32332F;
+    top:130px;
+    left:52px;
+    font-family: 'Modern', serif;
+    font-size: 30px;
+}
+
+.beweert{
+    position:absolute;
+    top:175px;
+    color: #32332F;
+    left:52px;
+    font-size:20px;
+    font-family: 'Modern',serif;
+}
+
+.Leeruitkomst1{
+    position:absolute;
+    top:230px;
+    left:52px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif;
+}
+
+.een{
+    position: absolute;
+    top:234px;
+    right:1000px;
+    left:180px;
+    font-family: 'Modern',serif;
+}
+
+.persoonlijkeweek{
+   position: absolute;
+   top:355px; 
+   left: 50px;
+   font-family: 'Modern',serif;
+   cursor: pointer;
+}
+
+a.persoonlijkeweek{
+    text-decoration: underline;
+}
+
+.brand{
+    position: absolute;
+    top:355px; 
+    left: 300px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.brand{
+    text-decoration: underline;
+}
+
+ .mercedes{
+    position: absolute;
+    top:400px; 
+    left: 50px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.mercedes{
+    text-decoration: underline;
+}
+
+.Leeruitkomst2{
+    position: absolute;
+    top:230px;
+    left:571px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif;
+}
+
+.twee{
+    position: absolute;
+    top:234px;
+    right:500px;
+    left:700px;
+    font-family: 'Modern',serif;
+}
+
+.oefeningen{
+    position: absolute;
+    top:355px; 
+    left: 580px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.oefeningen{
+    text-decoration: underline;
+}
+
+.github{
+    position: absolute;
+    top:355px; 
+    left: 750px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.github{
+    text-decoration: underline;
+}
+
+.Leeruitkomst3{
+    position: absolute;
+    top:230px;
+    right:340px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif; 
+}
+
+.drie{
+    position: absolute;
+    top:234px;
+    left:1210px;
+    right:30px;
+    font-family: 'Modern',serif;
+}
+
+.video{
+    position: absolute;
+    top:355px; 
+    right: 400px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.video{
+    text-decoration: underline;
+}
+
+.posters{
+    position: absolute;
+    top:355px; 
+    right: 250px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.posters{
+    text-decoration: underline;
+}
+
+.logo{
+    position: absolute;
+    top:355px; 
+    right: 150px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.logo{
+    text-decoration: underline;
+}
+
+.presentatie{
+    position: absolute;
+    top:400px; 
+    right: 348px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.presentatie{
+    text-decoration: underline;
+}
+
+.trailer{
+    position: absolute;
+    top:400px; 
+    right: 249px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+
+ a.trailer{
+    text-decoration: underline;
+}
+
+.Leeruitkomst4{
+    position:absolute;
+    top:480px;
+    left:52px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif; 
+}
+
+.vier{
+    position: absolute;
+    top:484px;
+    right:1000px;
+    left:180px;
+    font-family: 'Modern',serif; 
+}
+
+.onderzoek{
+    position: absolute;
+    top:555px; 
+    left: 50px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+ 
+ a.onderzoek{
+     text-decoration: underline;
+ }
+
+ .content{
+    position: absolute;
+    top:555px; 
+    left: 250px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+ 
+ a.content{
+     text-decoration: underline;
+ }
+
+ .analyse{
+    position: absolute;
+    top:600px; 
+    left: 50px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+ 
+ a.analyse{
+     text-decoration: underline;
+ }
+
+.Leeruitkomst5{
+    position: absolute;
+    top:480px;
+    left:571px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif;
+}
+
+.vijf{
+    position: absolute;
+    top:484px;
+    right:500px;
+    left:690px;
+    font-family: 'Modern',serif; 
+}
+
+.debriefing{
+    position: absolute;
+    top:555px;
+    left:570px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+}
+a.debriefing{
+    text-decoration: underline;
+}
+
+ .presentatie1{
+    position: absolute;
+    top:600px; 
+    left: 570px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+ 
+ a.presentatie1{
+     text-decoration: underline;
+ }
+
+ .presentatie2{
+    position: absolute;
+    top:645px; 
+    left: 570px;
+    font-family: 'Modern',serif;
+    cursor: pointer;
+ }
+ 
+ a.presentatie2{
+     text-decoration: underline;
+ }
+
+.Leeruitkomst6{
+    position: absolute;
+    top:480px;
+    right:340px;
+    font-size: 18px;
+    color:#32332F;
+    font-family: 'Modern', serif; 
+}
+
+.zes{
+    position: absolute;
+    top:484px;
+    left:1210px;
+    right:30px;
+    font-family: 'Modern',serif;  
+}
+
+#porto{
+    position: absolute;
+    top: 555px;
+    right:350px;
+    font-size: 17px;
+    font-family: 'Modern',serif;
+    border:none;
+    background-color:#e5e5ec;
+    color:#32332F;
+    text-decoration: underline;
+}
+

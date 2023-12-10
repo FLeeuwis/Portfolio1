@@ -1,5 +1,15 @@
+@font-face {font-family: Modern; src: url('MOD20.TTF');}
+
 body{
     background-color: #e5e5ec;
+}
+
+.link{
+    cursor:pointer;
+}
+
+a.link{
+    text-decoration: underline !important;
 }
 
 .container{
@@ -17,7 +27,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnP {
@@ -28,7 +38,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnB {
@@ -39,7 +49,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnL {
@@ -50,7 +60,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 
@@ -80,51 +90,51 @@ a:visited {
 .promotieTitel{
     position: absolute;
     top:130px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 30px;
     left: 47px;
 }
 
 .promotie{
     position:absolute;
-    top:190px;
+    top:200px;
     left:47px;
     right: 950px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .reflectieTitel{
     position:absolute;
-    top: 380px;
+    top: 400px;
     left:47px;
     right: 940px;
     font-size: 30px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .reflectie{
     position: absolute;
-    top: 460px;
+    top: 490px;
     left:47px;
     right:950px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .trailerTitel{
     position: absolute;
-    top: 650px;
+    top: 680px;
     left:47px;
     right: 930px;
     font-size: 30px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .trailer{
     position: absolute;
-    top:730px;
+    top:760px;
     left:47px;
     right:950px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .foto-grid {

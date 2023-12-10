@@ -1,3 +1,5 @@
+@font-face {font-family: Modern; src: url('MOD20.TTF');}
+
 body{
     background-color: #e5e5ec;
 }
@@ -7,6 +9,14 @@ body{
     margin: 0%;
     padding: 0%;
     color: black;
+}
+
+.link{
+    cursor:pointer;
+}
+
+a.link{
+    text-decoration: underline !important;
 }
 
 #homepage {
@@ -31,7 +41,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnP {
@@ -42,7 +52,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnB {
@@ -53,7 +63,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 .container .btnL {
@@ -64,7 +74,7 @@ body{
     background: none;
     margin: 0;
     padding: 0;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 20px;
 }
 
@@ -81,7 +91,7 @@ a:visited {
     position: absolute;
     top:130px;
     left:51px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 18px;
 }
 
@@ -98,7 +108,7 @@ a:visited {
     top:160px;
     right: 1050px;
     left:51px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .Week2Titel{
@@ -106,7 +116,7 @@ a:visited {
     top:390px;
     left:51px;
     font-size: 18px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .lijn2{
@@ -122,14 +132,14 @@ a:visited {
     top: 430px;
     left:51px;
     right:1050px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .Week3Titel{
     position: absolute;
     top:130px;
     right:510px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
     font-size: 18px;
 }
 
@@ -146,7 +156,7 @@ a:visited {
     top:160px;
     right: 51px;
     left:970px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .RobinTitel{
@@ -154,7 +164,7 @@ a:visited {
     top:350px;
     left:700px;
     font-size: 30px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .Robin{
@@ -162,7 +172,7 @@ a:visited {
     top:410px;
     left:700px;
     right:51px;
-    font-family: 'Modern No. 20', serif;
+    font-family: 'Modern', serif;
 }
 
 .foto-grid {
