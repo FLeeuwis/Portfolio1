@@ -1,0 +1,181 @@
+body{
+    background-color: #e5e5ec;
+}
+
+.container{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+
+#homepage {
+    position: absolute;
+    top: -16px;
+    left:80px;
+    cursor: pointer;
+    border:none;
+    background: none;
+    padding: 0;
+}
+
+#homepage img {
+    width: 180px;
+}
+
+.container .btnM {
+    position: absolute;
+    top:105px;
+    left:43px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnP {
+    position: absolute;
+    top:105px;
+    left: 350px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnB {
+    position: absolute;
+    top:105px;
+    right: 350px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnL {
+    position: absolute;
+    top:105px;
+    right: 43px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+
+a:link {
+    color:#32332F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #32332F;
+}
+
+.Week1Titel{
+    position: absolute;
+    top:130px;
+    left:51px;
+    font-family: 'Modern No. 20', serif;
+    font-size: 18px;
+}
+
+.lijn1{
+    position:absolute;
+    top:-75px;
+    left:54px;
+    color: #32332F;
+    font-size: 115px;
+}
+
+.Week1{
+    position: absolute;
+    top:160px;
+    right: 1050px;
+    left:51px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.Week2Titel{
+    position: absolute;
+    top:390px;
+    left:51px;
+    font-size: 18px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.lijn2{
+    position:absolute;
+    top:185px;
+    left:54px;
+    color: #CC7D7A;
+    font-size: 115px;
+}
+
+.Week2{
+    position: absolute;
+    top: 430px;
+    left:51px;
+    right:1050px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.Week3Titel{
+    position: absolute;
+    top:130px;
+    right:510px;
+    font-family: 'Modern No. 20', serif;
+    font-size: 18px;
+}
+
+.lijn3{
+    position:absolute;
+    top:-65px;
+    right:510px;
+    color: #32332F;
+    font-size: 110px;
+}
+
+.Week3{
+    position: absolute;
+    top:160px;
+    right: 51px;
+    left:970px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.RobinTitel{
+    position:absolute;
+    top:350px;
+    left:700px;
+    font-size: 30px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.Robin{
+    position: absolute;
+    top:410px;
+    left:700px;
+    right:51px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.foto-grid {
+    position: absolute;
+    display: grid;
+    left:700px;
+    top: 500px;
+    right:50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .foto {
+    overflow: visible;
+    width: 380px;
+    position: relative;
+  }

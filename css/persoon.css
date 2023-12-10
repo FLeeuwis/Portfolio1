@@ -1,0 +1,162 @@
+body{
+    background-color: #e5e5ec;
+}
+
+.container{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+
+.container .btnM {
+    position: absolute;
+    top:105px;
+    left:42px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnP {
+    position: absolute;
+    top:105px;
+    left: 350px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnB {
+    position: absolute;
+    top:105px;
+    right: 350px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnL {
+    position: absolute;
+    top:105px;
+    right: 43px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+
+a:link {
+    color:#32332F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #32332F;
+}
+
+#homepage {
+    position: absolute;
+    top: -18px;
+    left:80px;
+    cursor: pointer;
+    border:none;
+    background: none;
+    padding: 0;
+}
+
+#homepage img {
+    width: 180px;
+}
+
+.promotieTitel{
+    position: absolute;
+    top:130px;
+    font-family: 'Modern No. 20', serif;
+    font-size: 30px;
+    left: 47px;
+}
+
+.promotie{
+    position:absolute;
+    top:190px;
+    left:47px;
+    right: 950px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.reflectieTitel{
+    position:absolute;
+    top: 380px;
+    left:47px;
+    right: 940px;
+    font-size: 30px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.reflectie{
+    position: absolute;
+    top: 460px;
+    left:47px;
+    right:950px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.trailerTitel{
+    position: absolute;
+    top: 650px;
+    left:47px;
+    right: 930px;
+    font-size: 30px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.trailer{
+    position: absolute;
+    top:730px;
+    left:47px;
+    right:950px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.foto-grid {
+    position: absolute;
+    display: grid;
+    left:955px;
+    top: 170px;
+    right:150px;
+    grid-template-columns: repeat(2,1fr);
+
+  }
+  
+  .foto {
+    overflow: visible;
+    width: 250px;
+    position: relative;
+    margin-left: 5px;
+  }
+
+  .foto-grid2 {
+    position: absolute;
+    display: grid;
+    left:700px;
+    top: 510px;
+    right:150px;
+    grid-template-columns: repeat(3,1fr);
+
+  }
+  
+  .foto2 {
+    overflow: visible;
+    width: 250px;
+    position: relative;
+    margin-left: 5px;
+  }

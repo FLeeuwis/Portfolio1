@@ -1,0 +1,133 @@
+body{
+    background-color: #e5e5ec;
+}
+
+.container{
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    color: black;
+}
+
+.container .btnM {
+    position: absolute;
+    top:105px;
+    left:40px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnP {
+    position: absolute;
+    top:105px;
+    left: 360px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnB {
+    position: absolute;
+    top:105px;
+    right: 760px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+.container .btnL {
+    position: absolute;
+    top:105px;
+    right: 450px;
+    border:none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Modern No. 20', serif;
+    font-size: 20px;
+}
+
+a:link {
+    color:#32332F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #32332F;
+}
+
+#homepage {
+    position: absolute;
+    top: -16px;
+    left:80px;
+    cursor: pointer;
+    border:none;
+    background: none;
+    padding: 0;
+}
+
+#homepage img {
+    width: 180px;
+}
+
+.imagoTitel {
+    position: absolute;
+    top:180px;
+    font-size: 30px;
+    left:49px;
+    right: 1050px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.imago{
+    position: absolute;
+    top: 280px;
+    left: 49px;
+    right:1080px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.mercedesTitelReflectie{
+    position: absolute;
+    top: 180px;
+    right: 20px;
+    left:1050px;
+    font-size: 30px;
+    font-family: 'Modern No. 20', serif;
+}
+
+.mercedesReflectie{
+    position:absolute;
+    top: 280px;
+    right: 49px;
+    left: 1054px;
+    font-family: 'Modern No. 20', serif;
+
+}
+
+.foto-grid {
+    position: absolute;
+    display: grid;
+    left:500px;
+    top: 190px;
+    right:350px;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+  
+  .foto {
+    overflow: visible;
+    border-radius: 8px;
+    width: 50%;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 50px;
+  }
